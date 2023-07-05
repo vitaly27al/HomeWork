@@ -1,0 +1,36 @@
+.text--bold {
+  color: red;
+}
+p {
+  background-color: black;
+}
+p.text--bold {
+  border-style: dashed;
+}
+
+
+div{
+  color: red;
+  background-color: blue;
+  border-style: double;
+}
+
+.child {
+  color: blue;
+}
+div.child {
+  background-color: red;
+}
+.parent>.child{
+  border-style: dashed;
+}
+
+a[href*="#blog"] {
+  color: yellow;
+}
+a {
+  background-color: black;
+}
+a:link {
+  border-style: double;
+}

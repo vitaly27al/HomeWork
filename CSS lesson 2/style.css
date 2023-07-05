@@ -1,0 +1,17 @@
+H1 {
+  color: red;
+}
+.block {
+  color: black;
+}
+
+h1.block {
+  color: green;
+}
+#block {
+  color: aquamarine;
+}
+
+h1 {
+  color: brown !important;
+}
