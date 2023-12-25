@@ -1,0 +1,34 @@
+div {
+  background: black;
+  width: 50px;
+  height: 50px;
+  
+}
+div.block {
+  background: #a01313;
+  width: 70px;
+  height: 70px;
+}
+div {
+  background: black;
+  width: 50px;
+  height: 50px;
+  
+}
+#block {
+  background: rgb(182, 133, 133);
+  width: 50px;
+  height: 50px;
+  
+}
+div#block {
+  background: rgb(43, 75, 144);
+  width: 50px;
+  height: 50px;
+}
+[id]#block {
+  background: rgb(97, 122, 75);
+  width: 50px;
+  height: 50px;
+  
+}

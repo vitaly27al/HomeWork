@@ -1,0 +1,28 @@
+.class1 {
+  font-family: 'Open Sans', arial, sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  font-style: italic;
+}
+.class2 {
+  font-family: 'Open Sans', arial, sans-serif;
+  font-family: 'Rubik Iso', cursive;
+  text-align: center;
+  text-shadow: 1px 1px 1px #994013;
+  }
+.class3 {
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration-line: underline;
+  text-align: justify;
+  text-transform: uppercase;
+}
+.class4 {
+  font-family: serif;
+  text-indent: 40px;
+  letter-spacing: 10px;
+  word-spacing: 20px;
+  white-space: nowrap;
+  font-style: oblique;
+  font-size: 50px;
+}

@@ -1,0 +1,43 @@
+/* селектор по тегу */
+div {
+  color: red;}
+/* селектор по классу */
+.block {
+  color: blue;
+}
+/* селектор по id */
+#block {
+  color: green;
+}
+/* селектор по атрибуту */
+[atribut] {
+  color: yellow;
+}
+[atribut="a2"] {
+  color: rgb(163, 163, 177);
+}
+/* комбинация селекторов */
+.block1, .block2, .block3 {
+  color: bisque;
+}
+/* контекстные селекторы 1 */
+div.b {
+  color: black;
+}
+span.b {
+  color: aqua;
+}
+/* контекстные селекторы 2 */
+div .orange {
+  color: blueviolet;
+}
+.parent>.child {
+  background: black;
+}
+.parent>div>.child {
+  background: blue;
+}
+
+
+
+

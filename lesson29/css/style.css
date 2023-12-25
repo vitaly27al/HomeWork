@@ -1,0 +1,23 @@
+.class1 {
+  font-family: 'Open Sans', arial, sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  font-style: italic;
+  max-width: 1000px;
+  min-width: 320px;
+  min-height: 200px;
+  max-height: 300px;
+}
+.class2 {
+  font-family: 'Rubik Iso';
+  font-style: normal; 
+  font-weight: 400;
+  max-width: 1000px;
+  max-height: 300px;
+  min-width: 320px;
+  min-height: 200px;
+}
+img {
+  width: 500px;
+}
