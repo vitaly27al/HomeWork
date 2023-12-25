@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="tab-icon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <title>HTML lesson 11</title>
+</head>
+
+<body>
+  <form>
+    <fieldset>
+      <legend>Ваши данные</legend>
+      <label for="#area"> Ваше имя</label>
+      <input id="area" type="text">
+      <label>
+        Город доставки
+        <select name="select">
+          <option value="">Не выбрано</option>
+          <option value="one">Ставрополь</option>
+          <option value="two">Воронеж</option>
+          <option value="three">Москва</option>
+        </select>
+      </label>
+      </fieldset>
+    <fieldset>
+      <legend>Данные вашего питомца</legend>
+      <label for="#area1"> Кличка питомца</label>
+      <input id="area1" type="text">
+      <label>
+        Порода
+        <input id="#area2" type="text">
+      </label>
+      <label>
+        Вес питомца,кг
+        <input type="text">
+      </label>
+    </fieldset>
+    <label for="#area3"> Комментарий</label>
+      <textarea id="area3" cols="60" rows="10"></textarea>
+    <button type="submit">Отправить данные</button>
+    <button type="reset">Стереть данные</button>
+  </form>
+
+</body>
+
+</html>

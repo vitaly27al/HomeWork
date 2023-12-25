@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+.a1 {
+  display: inline-block;
+  width: 200px;
+  border: 10px solid blue;
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 10px 15px 5px black;
+  opacity: 0.5;
+  overflow: auto;
+}
+.a2 {
+  display: inline-block;
+  width: 200px;
+  border: 10px solid rgb(0, 193, 206);
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 10px 15px 5px black;
+  overflow: hidden ;
+}
+.a3 {
+  display: inline-block;
+  width: 700px;
+  height: 204px;
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 10px 15px 5px black;
+  overflow: auto;
+  background-image: linear-gradient( red 50%, orange ,green, blue) ;
+}
+.a4 {
+  display: inline-block;
+  width: 700px;
+  height: 204px;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 30px;
+  box-shadow: 10px 15px 5px black;
+  overflow: auto;
+  background-image: radial-gradient( red 50%, blue) ;
+}
+.a5 {
+  display: inline-block;
+  width: 700px;
+  height: 204px;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 20px;
+  box-shadow: 10px 15px 5px black;
+  overflow: auto;
+  background: no-repeat;
+  background-image: url(https://1vet.by/images/beast/4045.jpg) ;
+  background-position: 0% 100%;
+  background-size: 150px auto;
+}
+
+

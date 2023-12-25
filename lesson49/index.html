@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="tab-icon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <title>HTML lesson 49</title>
+</head>
+
+<body>
+  <form>
+    <fieldset>
+      <legend>Ваши данные</legend>
+      <label for="#area"> Ваше имя</label>
+      <input id="area" type="text" placeholder="ФИО" required>
+      <br>
+      <label>
+        Город доставки
+        <select name="select">
+          <option value="">Не выбрано</option>
+          <option value="one">Ставрополь</option>
+          <option value="two">Воронеж</option>
+          <option value="three">Москва</option>
+        </select>
+      </label>
+      </fieldset>
+      <br>
+      <fieldset>
+        <legend>
+          Контактная информация
+        </legend>
+        <label>
+          Номер телефона
+          <input type="tel" required>
+        </label>
+        <br>
+        <label>
+          Почта
+          <input type="email" required>
+        </label>
+      </fieldset>
+      <br>
+    <fieldset>
+      <legend>Данные вашего питомца</legend>
+      <label for="#area1"> Кличка питомца</label>
+      <input id="area1" type="text">
+      <label>
+        <br>
+        Порода
+        <input id="#area2" type="text">
+      </label>
+      <br>
+      <label>
+        Вес питомца
+        <input type="number" step="2" placeholder="kg" required min="0">
+      </label>
+      <br>
+      <label>
+        Дата рождения
+        <input type="date">
+      </label>
+    </fieldset>
+    <fieldset>
+      <br>
+      <legend>Прочее</legend>
+      <label>
+        Согласны с обработкой персональных данных
+        <input type="checkbox">
+      </label>
+      <br>
+      <label>
+        Получать уведомления по SMS
+        <input type="checkbox">
+      </label>
+    </fieldset>
+    <br>
+    <br>
+    <br>
+    <label for="#area3"> Комментарий</label>
+      <textarea id="area3" cols="60" rows="10"></textarea>
+    <button type="submit">Отправить данные</button>
+    <button type="reset">Стереть данные</button>
+  </form>
+
+</body>
+
+</html>

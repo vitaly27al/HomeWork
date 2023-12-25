@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+.a1 {
+  display: inline-block;
+  width: 200px;
+  border: 10px solid blue;
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 10px 15px 5px black;
+  opacity: 0.5;
+  overflow: auto;
+}
+.a2 {
+  display: inline-block;
+  width: 200px;
+  border: 10px solid rgb(0, 193, 206);
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 10px 15px 5px black;
+  overflow: hidden ;
+}
+.a3 {
+  display: inline-block;
+  width: 200px;
+  height: 204px;
+  border: 10px solid red;
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 10px 15px 5px black;
+  overflow: auto;
+
+}
+
+img {
+  display:block;
+  margin-top: 50px;
+  border: 30px double red;
+  border-radius: 30px;
+  box-shadow: 10px 15px 10px red;
+  opacity: 0.5;
+}

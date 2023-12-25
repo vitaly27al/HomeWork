@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+.class1 {
+  font-family: 'Open Sans', arial, sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  font-style: italic;
+  max-width: 1000px;
+  min-width: 320px;
+  min-height: 200px;
+  max-height: 300px;
+  padding: 20px 50px;
+  margin: 50px 50px -150px ;
+  border: 5px dotted blue;
+
+}
+.class2 {
+  font-family: 'Rubik Iso';
+  font-style: normal; 
+  font-weight: 400;
+  max-width: 1000px;
+  max-height: 300px;
+  min-width: 320px;
+  min-height: 200px;
+  padding: 100px;
+  margin: 50px 50px;
+}
+.class3 {
+  font-family: 'Rubik Iso';
+  font-style: normal; 
+  padding: 5px;
+  margin-bottom: 0px;
+  border-bottom: 10px dashed red;
+}
+img {
+  margin-top: 50px;
+  border: 30px double red;
+  border-radius: 30px;
+}

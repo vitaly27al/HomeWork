@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+.article {
+  width: 1220px;
+  height: 500px;
+  overflow: auto;
+  border: 1px solid black;
+  border-top-left-radius: 20px  ;
+}
+.a1 {
+  font-family: 'Times New Roman', Times, serif;
+  display: inline-block;
+  width: 230px;
+  border-radius: 20px;
+  padding: 15px;
+  margin: 5px;
+  box-shadow: inset 0px 0px 10px black;
+  background:burlywood;
+  overflow: auto;
+}
+.a2 {
+  display: inline-block;
+  width: 230px;
+  border-radius: 20px;
+  padding: 15px;
+  margin: 5px;
+  box-shadow: inset 0px 0px 10px black;
+  background: burlywood;
+  overflow: auto ;
+}
+.a3 {
+  display: inline-block;
+  width: 230px;
+  border-radius: 20px;
+  padding: 15px;
+  margin: 5px;
+  box-shadow: inset 0px 0px 10px black;
+  background: burlywood;
+  overflow: auto;
+}
+.a4 {
+  display: inline-block;
+  width: 230px;
+  border-radius: 20px;
+  padding: 15px;
+  margin: 5px;
+  box-shadow: inset 0px 0px 10px black;
+  background: burlywood;
+  overflow: auto;
+}
+.a5 {
+  display: inline-block;
+  width: 230px;
+  border-radius: 20px;
+  padding: 15px;
+  margin: 5px;
+  box-shadow: inset 0px 0px 10px black;
+  background: burlywood;
+  overflow: auto;
+}
+.a6 {
+  display: inline-block;
+  width: 230px;
+  border-radius: 20px;
+  padding: 15px;
+  margin: 5px;
+  box-shadow: inset 0px 0px 10px black;
+  background: burlywood;
+  overflow: auto;
+}
+.a7 {
+  display: inline-block;
+  width: 230px;
+  border-radius: 20px;
+  padding: 15px;
+  margin: 5px;
+  box-shadow: inset 0px 0px 10px black;
+  background: burlywood;
+  overflow: auto;
+}
+.a8 {
+  display: inline-block;
+  width: 230px;
+  border-radius: 20px;
+  padding: 15px;
+  margin: 5px;
+  box-shadow: inset 0px 0px 10px black;
+  background: burlywood;
+  overflow: auto;
+}
+.a9 {
+  display: inline-block;
+  width: 230px;
+  border-radius: 20px;
+  padding: 15px;
+  margin: 5px;
+  box-shadow: inset 0px 0px 10px black;
+  background: burlywood;
+  overflow: auto;
+}
+.a10 {
+  display: inline-block;
+  width: 230px;
+  border-radius: 20px;
+  padding: 15px;
+  margin: 5px;
+  box-shadow: inset 0px 0px 10px black;
+  background: burlywood;
+  overflow: auto;
+}
+.a11 {
+  display: inline-block;
+  width: 230px;
+  border-radius: 20px;
+  padding: 15px;
+  margin: 5px;
+  box-shadow: inset 0px 0px 10px black;
+  background: burlywood;
+  overflow: auto;
+}

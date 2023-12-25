@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+.a1 {
+  display: inline-block;
+  width: 200px;
+  border: 10px solid blue;
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 10px 15px 5px black;
+}
+.a2 {
+  display: inline-block;
+  width: 200px;
+  border: 10px solid rgb(0, 193, 206);
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 10px 15px 5px black;
+  
+}
+.a3 {
+  display: inline-block;
+  width: 200px;
+  border: 10px solid red;
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 10px 15px 5px black;
+}
+
+img {
+  display:block;
+  margin-top: 50px;
+  border: 30px double red;
+  border-radius: 30px;
+  box-shadow: 10px 15px 10px red;
+}
