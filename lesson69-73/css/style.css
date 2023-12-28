@@ -157,7 +157,14 @@ transition: all .5s;
 
 .main_wrapper {
     display: flex;
-    gap: 126px;
+    align-items: start;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.main__sidebar {
+    position: sticky;
+    top: 5vh;
 }
 
 .main__body {
@@ -171,12 +178,12 @@ transition: all .5s;
 }
 
 .sidebar {
-    line-height: 20px;
     font-weight: 500;
     border: 2px solid #D0DCE7;
     padding: 30px;
     max-width: 282px;
     width: 100%;
+    min-height: 60vh;
 }
 
 .sidebar__item {
