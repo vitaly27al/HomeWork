@@ -1,0 +1,203 @@
+:root {
+    --general_bg: #FFF9F4;
+    --general_text: #312C27;
+    --acent-color: #FFA55C;
+    --input-color: #ac907a;
+    --acent-bg: #FFE0CB;
+    --footer-bg: #ab8261;
+    --transition: all 0.4s;
+    --border_rad: 20px;
+    --acent-text: #1F1711;
+    --acent-color2: #CEAAD0;
+
+}
+
+html {
+scroll-behavior: smooth ;
+scroll-padding-top: 5vh;
+}
+
+.body {
+    font-family: "Montserrat", "Arial", sans-serif;
+    background-color: var(--general_bg);
+    color: var(--general_text);
+    line-height: 1.5;
+}
+
+.wrapper {
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex-grow: 1;
+}
+
+.main_about {
+    margin: 140px 0;
+}
+
+
+.main_program,
+.main_gallery,
+.main_testimonials {
+    padding-bottom: 145px;
+}
+
+
+.container {
+    height: 100%;
+    max-width: 1310px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
+
+.title {
+    font-family: Gabriola;
+    font-size: 74px;
+    line-height: 0.82;
+}
+
+
+.btn {
+    width: 100%;
+    font-weight: 500;
+    line-height: 1.6;
+    border-radius: 60px;
+    padding: 18px 36px;
+    background: var(--acent-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: var(--transition);
+}
+
+.btn:hover {
+    background-color: #FF9138;
+}
+
+
+.body_opened-modal {
+    overflow: hidden;
+}
+
+.modal {
+    position: fixed;
+    inset: 0;
+    z-index: 10;
+    background: #00000037;
+    padding: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    opacity: 0;
+    visibility: hidden;
+    transition: all .6s;
+}
+
+.body_opened-modal .modal {
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal_window {
+    position: relative;
+    background: var(--general_bg);
+    border-radius: var(--border_rad);
+    max-width: 428px;
+    padding: 0 60px 60px;
+}
+
+.modal_window-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.modal_window-close path,
+.modal_window-close rect {
+    transition: var(--transition);
+}
+
+.modal_window-close:hover path,
+.modal_window-close:hover rect {
+    stroke: var(--input-color);
+}
+
+.modal_img {
+    margin: -65px 0 15px 12px;
+    max-width: 100%;
+}
+
+.modal_title {
+    font-family: Gabriola;
+    font-size: 42px;
+    line-height: .9;
+    margin-bottom: 10px;
+}
+
+.modal_text {
+    margin-bottom: 30px;
+}
+
+
+.modal_form-label {
+    margin-bottom: 10px;
+}
+
+.field {
+    display: block;
+    position: relative;
+}
+
+.field_input {
+    display: block;
+    border: 1px solid var(--input-color);
+    border-radius: 100px;
+    padding: 19px 41px 19px 28px;
+    width: 100%;
+    font-size: 16px;
+    transition: var(--transition);
+}
+
+.field span {
+    position: absolute;
+    top: 12px;
+    left: 28px;
+    font-size: 11px;
+    color: var(--input-color);
+
+    opacity: 0;
+    visibility: hidden;
+    transition: var(--transition);
+}
+
+
+.field_input:hover {
+    border-color: var(--acent-color);
+}
+
+.field_input::placeholder {
+    color: var(--input-color);
+    transition: var(--transition);
+}
+
+.field_input:hover::placeholder {
+    color: var(--acent-color);
+}
+
+.field_input:focus {
+    padding: 26px 41px 12px 28px;
+}
+
+.field_input:focus+span {
+    opacity: 1;
+    visibility: visible;
+
+}
